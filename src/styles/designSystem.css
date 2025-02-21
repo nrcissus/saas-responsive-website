@@ -43,6 +43,8 @@ font-family: "Crimson Text", serif;
 
     --font-1 : "Crimson Text", serif;
     --font-2: "Work Sans", serif;
+
+    --shadow-1: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
 }
 
 /*
@@ -222,9 +224,18 @@ font-family: "Crimson Text", serif;
     .container {
         max-width: 740px;
     }
+
+    .common-title {
+        font-size: var(--h4);
+    }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .container {
         max-width: 500px;
     }
