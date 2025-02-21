@@ -1,0 +1,72 @@
+/** 
+* ! style rules for sectionOne
+*/
+
+.sectionOne__left--text {
+    font-family: var(--font-2);
+    font-size: var(--body);
+    color: var(--color-white-75);
+}
+
+.sectionOne__left--btn {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+/**
+* ? style rules for sectionTwo
+*/
+
+.sectionTwo {
+    display: grid;
+    gap: 30px;
+    padding: 40px 0px;
+}
+
+.sectionTwo__content--text{
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+.sectionTwo__logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sectionTwo__logo img {
+    justify-self: center;
+    align-self: center;
+}
+
+.sectionTwo__btn {
+    justify-self: center;
+}
+
+/**
+* ! Style rules for sectionThree
+*/
+
+.sectionThree__right--text {
+    font-size: var(--body);
+    font-family: var(--font-2);
+    color: var(--color-dark-75);
+}
+
+.sectionThree__right--btn {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+/**
+* ? Style rules for sectionFour
+*/
+
+.sectionFour__left--text {
+    font-size: var(--body);
+    font-family: var(--font-2);
+    color: var(--color-dark-75);
+}
+
+.sectionFour__left--btn {
+    align-self: start;
+    margin-top: 20px;
+}
